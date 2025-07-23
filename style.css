@@ -1,0 +1,399 @@
+.btn{
+    padding: 10px 20px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+}
+
+.card{
+    width: 300px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 10s ease;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-box input{
+    padding: 10px 15px;
+    border: 5px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: all 5s ease;
+    margin: 30px;
+}
+.form-box input:focus{
+    padding: 15px 20px;
+    border-color: aqua;
+}
+
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.image-card{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-grid img{
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+  }
+  
+  .image-card:hover .overlay {
+    opacity: 1;
+  }
+
+  .circle{
+    width: 200px;
+    height: 200px;
+    border: 5px solid;
+    background-color: aqua;
+    border-radius: 50%;
+    border-top: 5px solid #db1c4b;
+    animation-name: sqaure;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes sqaure{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+  }
+
+
+  .card1{
+    width: 300px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center; 
+    transition: all 2s ease;
+}
+
+.card1 img{
+    width: 100%;
+    height: auto;
+}
+
+.card1:hover{
+    transform: scale(1.05);
+}
+
+.card-container {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    margin: 50px auto;
+  }
+  
+  .card-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+  }
+  
+  .card-container:hover .card-box {
+    transform: rotateY(180deg);
+  }
+  
+  .card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-back {
+    background-color: #3498db;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .button{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    background-color: aqua;
+    border: 4px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.8s;
+  }
+
+  .button:hover{
+    transform: rotate(360deg);
+  }
+
+  .container{
+    width: 600px;
+    height: 300px;
+  }
+  .ring{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    animation: bounce 0.8s ease-in-out infinite;
+    
+  }
+  
+  @keyframes bounce{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(200px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+  }
+
+ .para{
+    width: 400px;
+    margin: 50px auto;
+ }
+ .para-content{
+    font-size: 30px;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid black;
+    width: 0;
+    animation: typing 3s linear infinite, blink 0.7s step-end infinite;
+ }
+
+ @keyframes typing{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 220px;
+    }
+ }
+
+ @keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+ }
+
+ .pack-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+  }
+  
+  .pack {
+    height: 200px;
+    width: 200px;
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(100px);
+    animation: packed 2s ease forwards;
+  }
+  
+  .pack1 {
+    animation-delay: 0.5s;
+  }
+  
+  .pack2 {
+    animation-delay: 1s;
+  }
+  
+  .pack3 {
+    animation-delay: 1.5s;
+  }
+  
+  @keyframes packed {
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
+.notification-icon{
+    position: relative;
+    margin-top: 30px;
+    font-size: 40px;
+    display: inline-block;
+}
+.red-dot{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50%;
+    animation: ring 1s ease-in-out infinite;
+    opacity: 1;
+}
+
+@keyframes ring{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.5);
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.cards-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 100px;
+}  
+
+.info-card {
+    width: 250px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(100px);
+    animation: cardSlideIn 0.8s ease forwards infinite;
+}
+
+.first-card {
+    animation-delay: 0.2s;
+  }
+  .second-card {
+    animation-delay: 0.4s;
+  }
+  .third-card {
+    animation-delay: 0.6s;
+  }
+
+  .info-card img {
+    width: 100%;
+    transition: transform 0.5s ease;
+  }
+
+  .info-card img:hover {
+    transform: scale(1.05);
+  }
+  
+
+  @keyframes cardSlideIn {
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .team-card{
+    margin-top: 30px;
+    width: 300px;
+    height: 250px;
+    background-color: aqua;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+
+  }
+  .profile-pic{
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+
+
+.member-info {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+
+.team-card:hover {
+  background-color: #dfe6e9;
+}
+
+.team-card:hover .profile-pic {
+  transform: scale(1.1);
+}
+
+.team-card:hover .member-info {
+  opacity: 1;
+  transform: translateY(0);
+}
