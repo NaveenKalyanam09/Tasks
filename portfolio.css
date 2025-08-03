@@ -16,3 +16,534 @@ nav a{
   color: rgba(0, 0, 0, 0.814);
   padding-right: 30px;
 }
+
+.image{
+  display: flex;
+  background-color: #f0f8ff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  max-width: 1040px;
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+.img-content{
+  margin-left: 40px;
+}
+.img-content h1{
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.aspire{
+   color: #3b82f6;
+   font-weight: 700;
+  
+
+}
+.pa{
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.pa1{
+  font-weight: 400;
+  margin-top: 10px;
+}
+.btn{
+  display: flex;
+  gap: 10px;
+}
+.view-projects{
+  background-color: rgba(0, 0, 255, 0.68);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+}
+
+.hire-me{
+  border-color: #3b82f6;
+  border: 1px solid #3b82f6;
+  color: blue;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+}
+
+.pic img{
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  margin-right: 120px;
+  border: 2px solid white;
+}
+
+.about{
+  display: flex;
+  justify-content: center;     
+  align-items: center;          
+  flex-direction: column; 
+}
+
+.about h2{
+  font-size: 25px;
+  font-weight: 900;
+  margin: 8px;
+}
+
+.about-para{
+  max-width: 550px;
+  font-size: 16px;
+  color: #475569;
+  margin: 0 20px;
+}
+.break-line{
+  display: inline-block;
+  text-align: center;
+  color: #475569;
+}
+
+.journey{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-journey{
+  margin-left: 50px;
+}
+
+.my-journey h4{
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+   margin-bottom: 7px
+}
+.my-journey p{
+  font-size: 15px;
+  max-width: 400px;
+  margin-top: 4px;
+}
+
+.my-journey h5{
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.skill-info img{
+  width: 30px;
+  height: 30px;
+}
+
+.skill{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.skill-info{
+  display: flex;
+  margin-right: 250px;
+  margin-top: 15px;
+  gap: 15px;
+}
+
+.skill-name{
+  display: flex;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.skills h4{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;     
+  align-items: center;          
+  flex-direction: column;
+}
+
+.heading h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+.heading p{
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+  background-color: #f7f9fc;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #202124;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 14px;
+  color: #5f6368;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.btn-group {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-links {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+
+.html1 {
+  background-color: #e8f0fe;
+  color: #1967d2;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.css1 {
+  background-color: #e6f4ea;
+  color: #137333;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.java {
+  background-color: #fef7e0;
+  color: #a95a00;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.react {
+  background-color: #e8f0fe;
+  color: #1967d2;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.api {
+  background-color: #f3e5f5;
+  color: #9c27b0;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.css3 {
+  background-color: #fce8e6;
+  color: #d93025;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+
+.view-live {
+  background-color: #4285F4;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.github {
+  background-color: transparent;
+  color: #202124;
+  padding: 8px 16px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.resume-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.resume-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.resume-subtitle {
+  font-size: 16px;
+  color: #4b5563;
+  margin-bottom: 40px;
+}
+
+.resume-box {
+  background-color: #f9fafb;
+  border-radius: 16px;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.pdf-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.resume-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.resume-desc {
+  font-size: 15px;
+  color: #374151;
+  margin-bottom: 25px;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #4285F4;
+  color: white;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.contact-wrapper {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.contact-description {
+  color: #6b7280;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+
+.contact-info-box {
+  flex: 1;
+  min-width: 280px;
+  text-align: left;
+}
+
+.info-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #1f2937;
+  margin-bottom: 15px;
+}
+
+.info-item .icon {
+  margin-right: 12px;
+  color: #3b82f6;
+}
+
+.social-links {
+  margin-top: 25px;
+}
+
+.social-icon {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.linkedin-icon {
+  background-color: #0a66c2;
+}
+
+.github-icon {
+  background-color: #111827;
+}
+
+.twitter-icon {
+  background-color: #1da1f2;
+}
+
+.contact-form-box {
+  flex: 1;
+  min-width: 100px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.form input,
+.form textarea {
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #111827;
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+.form button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #2563eb;
+}
+
+.site-footer {
+  background-color: #1b263b;
+  color: #cbd5e1;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-nav {
+  margin-bottom: 15px;
+}
+
+.footer-nav a {
+  color: #e2e8f0;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #60a5fa;
+}
+
+.footer-text {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.back-to-top {
+  display: inline-block;
+  color: #3b82f6;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  text-decoration: underline;
+}
